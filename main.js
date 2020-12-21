@@ -31,7 +31,7 @@ loginButton.addEventListener('click', function(e) {
 choiceSelector.addEventListener('click', function(e) {
   e.preventDefault();
 
-  var currentChoice = document.querySelector("input[name='choice']:checked");
+  var currentChoice = document.querySelector('input[name="choice"]:checked');
 
   if (currentChoice === null) {
     return alert('Please pick a valid category. Thx.');
